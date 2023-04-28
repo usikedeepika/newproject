@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+       <style>
+        body{
+            background-color:aquamarine;
+        }
+       </style>
+    </head>
+    <body>
+       <div class="container">
+            <div class="responsive"> 
+                <caption><h2 style="padding:5px;">Enter Your Details</h2></caption>
+                <table class="table-striped table-bordered table-responsive-sm " width="500">
+                 <tbody>
+                    <form action="register">
+                        <tr class="table-active">
+                            <td>UserName:</td>
+                            <td><input type="text" name="name" value="" required placeholder="enter your name"/></td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Email:</td>
+                            <td><input type="email" name="name" value="" required/></td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Login Password:</td>
+                            <td><input type="password" name="name" value=""/></td>
+                        </tr>
+                        <tr class="table-active">
+                           <td>Confirm Password:</td> 
+                           <td><input type="password" name="name" value=""/></td>
+                        </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td colspan="2" align="right"><input type="submit"  name= "submit" value="SUBMIT"></input></td>
+                         </tr>
+                    </form>
+                 </tbody>
+                </table>
+                <footer>Thank you for registering!<h1> Happy Learning</h1></footer>
+                </div>
+       </div>
+
+    </body>
+</html>

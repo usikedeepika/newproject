@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>sports form</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <style>
+            hr{
+                background-color:black;
+                border-radius:1;
+                text-align: left;
+            }
+            .box{
+                margin:20px;
+                width:800px;
+                border:1px solid grey;
+                padding-left:20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            #dropdown-menu
+            {
+               margin-top: 10px;
+               margin-bottom: 10px;
+            }
+            h2
+            {
+                color:black;
+            }
+            .text-center
+            {
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="container">
+            <div class="responsive"> 
+                <caption><h2>Sports Application</h2></caption>
+                <br>
+                <table class="table-striped table-bordered table-responsive-sm " width="500">
+                 <tbody>
+                    <form action="register">
+                        <tr class="table-active">
+                            <td>Participant Name:</td>
+                            <td><input type="text" name="name" value="" required placeholder="enter your name"/></td>
+                        </tr>
+                        <tr class="table-danger">
+                            <td>Login Name:</td>
+                            <td><input type="text" name="name" value="" required/></td>
+                        </tr>
+                        <tr class="table-warning">
+                            <td>Login Password:</td>
+                            <td><input type="password" name="name" value=""/></td>
+                        </tr>
+                        <tr>
+                           <td>Gender</td> 
+                           <td><input type="radio" name="gender" value="male" checked>Male</input>
+                            <input type="radio" name="gender" value="female">Female</input>
+                        </td>
+                        </tr>
+                        <tr class="table-success">
+                            <td>Training Done</td> 
+                            <td><input type="checkbox" name="train" value="">Tennis</input>
+                                <input type="checkbox" name="train" value="">Badminton</input>
+                                <input type="checkbox" name="train" value="">Basket ball</input>
+                             
+                         </td>
+                         </tr>
+                         <tr><td><label>Applying for</label></td>
+                            <td>
+                                <select id="applying for" multiple size="4" >
+                                    <option value="tennis">Tennis</option>
+                                    <option value="Badminton" >Badminton</option>
+                                    <option value="Chess">Basket Ball</option>
+                                    <option value="tennis">Chess</option>
+                                    <option value="kabaddi">Kabaddi</option>
+                                    <option value="Kho-Kho">Kho-Kho</option>
+                            </select>
+                            </td>
+                         </tr>
+                         <tr class="table-active">
+                            <td colspan="2" align="right"><input type="submit"  name= "submit" value="Apply"></input></td>
+                         </tr>
+                    </form>
+                 </tbody>
+                </table>
+                Registration Form
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
